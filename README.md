@@ -2,7 +2,7 @@
 
 Preparing the Solutions Architect certification
 
-[Storage](/storage)
+[Storage](/storage/storage.md)
 
 
 [EC2](/ec2)
