@@ -101,3 +101,18 @@
 
 
 ### Use Cases
+
+
+
+# Making decision
+
+1. Is it new or existing workflow? New workflows often require experimentation and discovery, modular design approach 
+2. Known workflow requirements? interoperability, expand, recommended configuration, estimated future, existing bottlenecks
+3. What is the type of use case? high performance computing option, replatforming, forming a data lake, creating DR, solving retention
+4. What are the requirements for storage location?  if workflow remote, latency, store in AWS or premises
+5. What are the requirements for storage type? supported storage, multiple types, if object storage (cost savings),  reliability and durability requirements
+6. What are the requirements for storage performance?  IOPS or throughput intensive, avg/min/max IOPS, latency sensitive, 
+7. What are the requirements for access protocol? file access protocol supported, Linux vs Windows,
+8. What are the requirements for data transfer? connectivity constraints, SFTP/FTPS/FTP, sync or scheduled, Cross-region, on premises and/or in cloud
+9. What are the requirements for data protection? regular backups, retention, compliance, snapshots, long term archival
+10. What is the best combination of storage services? 
