@@ -41,4 +41,10 @@
 ![Cloudendure](images/cloudendure.png)
 
 ### Features
-- continuously replicates your machines into a low-cost staging area
+- Uses EBS as storage
+- Continuous replication: sync/async recovery into staging area.
+- Low cost staging area: educes the need for duplicate resources and significantly reduces your disaster recovery total cost of ownership (TCO)
+- Automated machine conversion and orchestration:  triggers a highly automated machine conversion process and a scalable orchestration engine
+- Point in time recovery: recover applications and IT environments that have been corrupted
+- Non disruptive disaster recovery testing: conduct disaster recovery drills without disrupting your source environment
+- Wide support
