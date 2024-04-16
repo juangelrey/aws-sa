@@ -7,6 +7,8 @@ Preparing the Solutions Architect certification
 - [Protecting Data](/storage/protecting_data.md)
 - [Storage Portfolio](/storage/storage_portfolio.md)
 
+# Network
+- [VPC](/network/vpc.md)
 
 ## Refactor
 [EC2](/ec2)
