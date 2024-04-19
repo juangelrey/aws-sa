@@ -31,3 +31,11 @@ Configured initially:
 - All traffic is unicast and Amazon VPCs do not require the Address Resolution Protocol (ARP)
 - By default, all subnets in an Amazon VPC can access each other. You can use network network ACLs to restrict traffic into and out of your subnets
 - All traffic between two points in the same Amazon VPC is forwarded directly.
+
+
+## Best Practices
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-best-practices.html
+
+- When you add subnets to your VPC to host your application, create them in multiple Availability Zones
+- Use security groups to control traffic to EC2 instances in your subnets. 
+- Use network ACLs to control inbound and outbound traffic at the subnet level
