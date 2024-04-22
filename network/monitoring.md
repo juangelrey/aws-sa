@@ -50,3 +50,9 @@ Directive and preventative security controls help establish a baseline
 - VPC Reachability Analyzer: diagnostics tool that troubleshoots reachability between two endpoints in an Amazon VPC
 - AWS Transit Gateway Network Manager: centrally manage your networks that are built around transit gateways
 - AWS CloudTrail: Management Events & Data Events
+
+
+### monitor throughput and bandwidth
+- iPerf/iPerf3: active measurements of the maximum achievable bandwidth on IP networks.
+- ExtraHop: monitoring solution for security, network performance, and the cloud
+- Netperf:  CLI tool similar to iPerf that measures throughput and benchmarking speeds
