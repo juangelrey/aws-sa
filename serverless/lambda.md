@@ -27,7 +27,7 @@
 |  | Amazon SQS |
 
 
-# Execution enviornment lifecycle
+## Execution enviornment lifecycle
 
 ![Lambda](images/lambda_environment.png)
 
@@ -40,3 +40,9 @@
 
 
 ![cold and worm start](images/lambda_cold_warm_start.png)
+
+## deployment
+
+- canary: traffic shifted in 2 increments.
+- linear: predetermined percentage every X minutes
+- all at once: all traffic
