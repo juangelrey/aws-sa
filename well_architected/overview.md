@@ -123,5 +123,97 @@ https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillars.wa-pil
 
 
 ## Reliability 
+- automatically recover from failure
+- test recovery procedures
+- scale horizontally to increase aggregage workload availability
+- stop guessing capacity
+- manage change in automation
+
+
 
 ### Best practices
+- foundations
+    - manage service quotas and constraints
+        - stay aware of service quotas and constraints
+        - manage service quotas across accounts and regions
+        - accommodate fixed service quotas and constraints through architecture
+        - monitor and manage quotas
+        - automate quota management
+        - ensure a sufficient gap exists between current quotas and maximum usage
+    - plan network topology
+        - use highly available network connectivity for workload public endpoint
+        - provision redundant connectivity between cloud and on premises environments
+        - ensure IP subnet allocation accounts for expansion and availability
+        - prefer hub and spoke topologies over many to many mesh
+        - enforce non overlapping private IP ranges in connected address spaces
+- workfload architecture
+    - design workload service architecture
+        - how to segment workload
+        - build services focused on specific business domains and functionality
+        - provide service contracts per API
+    - design interactions in a distributed system to prevent failures
+        - idenfity which kind of distributed system is required
+        - implement loosely coupled dependencies
+        - do constant work
+        - make all responses idempotent
+    - design interactions in a distributed systems to mitigate
+        - implement graceful degradation to transform hard dependencies to soft
+        - throttle requrests
+        - control and limit retry calls
+        - fail fast and limit queues
+        - set client timeouts
+        - make services stateless where possible
+        - implement emergency levers
+- change management
+    - monitor workload resources
+        - monitor all componenents for the workload
+        - define and calculate metrics
+        - send notifications
+        - automate responses
+        - perform analytics 
+        - conduct reviews regularly
+        - monitor end to end tracing of requests through your system    
+    - design a workload to adapt to changes in demand
+        - use automation when obtaining or scaling resources
+        - obtain resources upon detection of impairment to a workload
+        - obtain resources that more resources are needed for a workload
+        - load test your workload
+    - implement change
+        - use runbooks for standard activities such as deployment    
+        - integrate functional testing as part of your deployment
+        - integrate resiliency testing as part of the deployment
+        - deploy using inmmutable infrastructure
+        - deploy changes with automation
+- failure management
+    - back up data
+        - idenfity and back up all data that needs to be backed up
+        - secure and encrypt backups
+        - perform data backup automatically
+        - perform periodic recovery of data to verfy backup integrity and procesess
+    - use fault isolation to protect workload
+        - deploy workload to multiple locations
+        - select appropiate locations for your multi location deployment
+        - automate recovery for components constrained to a single location
+        - use bulkhead architectgures to limit scope of impact
+    - design workload to withstand component failures
+        - monitor all components of workload to detect failures
+        - fail over to healthy resources
+        - automate healing on all layers
+        - rely on data plane, not control plane, during recovery
+        - use static stability to prevent bimodal behavior
+        - send notifications when event impact availability
+        - arhictect product to meet availability targets and uptime SLAs
+    - test reliability
+        - use playbooks to investigate failures
+        - perform post incident analysis
+        - test functional requirements
+        - test scaling and performance requirements
+        - test resiliency using chaos engineering
+        - conduct game days regularly
+    - plan for disaster recovery
+        - define recovery objectives for downtime and data loss
+        - use defined reovery strategies to meet recovery objectives
+        - test disaster recovery implementation to validate implementation
+        - manage configuration drift at the DR site or region
+        - automate recovery
+
