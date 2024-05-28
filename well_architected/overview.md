@@ -217,3 +217,65 @@ https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillars.wa-pil
         - manage configuration drift at the DR site or region
         - automate recovery
 
+## Eficiency
+- democratize advanced techonlogies
+- go global in minutes
+- use serverless architectures
+- experiment more often
+- consider mechanical sympathy
+
+### Best practices
+- selection
+    - performance architecture selection
+        - understand the available services and resources
+        - define a process for architectural choices
+        - factor cost requirements into decisions
+        - use policies or reference architecture
+        - use guidance from cloud provider or an appropiate partner
+        - benchmark existing workloads
+        - load test your workloads
+    - compute architecture selection
+        - understand available compute configuration options
+        - evaluate available compute options
+        - collect compute related metrics
+        - determine required configuration by rightsizing
+        - use available elasticity of resources
+        - continually evaluate compute needs based on metrics
+    - storage architecture selection
+        - understand storage characteristics and requirements
+        - make decisions based on access patterns and metrics
+        - evaluate available configuration option
+    - database architecture selection
+        - understand data characteristics
+        - evaluate the available option
+        - collect and record database performance metrics
+        - choose data storage based on access patterns 
+        - optimize data storage based on access patterns and metrics
+    - network architecture selection
+        - understand how networking impacts performance
+        - evaluate available networking features
+        - choose appropiately sized dedicated connectivity or vpn for hybrid workloads
+        - leverage load balancing and encryption offloading
+        - choose network protocols to improve performance
+        - chooose your workloads location based on network requirements
+        - optimize network configuration based on metrics
+- review
+    - evolve workload to take advantage of new releases
+        - stay up to date on new resources and services
+        - define a process to improve workload performance
+        - evolve workload performance over time
+- monitoring 
+    - monitoring resources to ensure expected performance
+        - record performance relatec metrics
+        - analyze metrics when events or incidents occur
+        - establish kpis to measure workload performance
+        - use monitoring to generare alarm based notifications
+        - review metrics at regular intervals
+        - monitor and alarm proactively
+- trade offs
+    - using tradeoffs to improve performance
+        - understand areas where performance is most critical
+        - learn about design patterns and services
+        - identify how trade offs impact customers and efficiency
+        - measure impact of performance improvements
+        - use various performance related strategies
