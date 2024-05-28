@@ -279,3 +279,72 @@ https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillars.wa-pil
         - identify how trade offs impact customers and efficiency
         - measure impact of performance improvements
         - use various performance related strategies
+
+## Cost optimization
+- practice cloud financial management
+- adopt a consumption model
+- measure overall efficency
+- stop spending money on undifferentiated heavy lifting
+- analyze and attribute expenditure
+### Best practices
+- practice cloud financial management
+    - establish a cost optimization function
+    - establish a parternship between finance and tech
+    - establish cloud budget and forecasts
+    - implement cost awareness in your org processes
+    - report and notify on cost optimization
+    - monitor cost proactively
+    - keep up to date with new service releases
+    - create a cost aware culture
+    - quantify business value from cost optimization
+- expenditure and usage awareness
+    - governance
+        - develop policies based on your organization requirements
+        - implement goals and targets
+        - implement an account structure
+        - implement groups and roles
+        - implement cost controls
+        - track project lifecycle
+    - monitor cost and usage
+        - configure detailed information sources
+        - add organization information to cost and usage
+        - idenfity cost attribution categories
+        - establish organization metrics
+        - configure billing and cost management tools
+        - allocate costs based on workload metrics
+    - decomission resources
+        - track resources over their lifetime
+        - implement a decomissiioning process
+        - decomission resources
+        - decomission resources automatically
+        - enforce data retention policies
+- cost effective resources
+    - evaluate cost when selecting services
+        - identify organization requirements for cost
+        - analyze all workload components
+        - perform through analysis of each component
+        - select software with cost effective licensing
+        - select components to optimize cost in line with organization priorities
+        - perform cost analysis for different usage over time
+    - select correct resource type, size and number
+        - perform cost modeling
+        - select resource type size and number based on data
+        - select resource type, size and number automatically based on metrics
+    - select pricing model
+        - perform pricing model analysis
+        - implement regions based on cost
+        - select third party agreements with cost efficient terms
+        - implement pricing models for all components of a workload
+        - perform pricing model analysis at management account level
+    - plan for data transfer
+        - perform data transfer modeling
+        - select components to optimize data transfer cost
+        - select services to reduce data transfer cost
+- management of demand and supply resources
+    - perform analysis on workload demand
+    - implement buffer or throttle to maanage demand
+    - supply resources dynamically
+- optimization over time
+    - develop a worklaod review process
+    - review and analyze this workload regularly
+    - perform automations for operations
