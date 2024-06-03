@@ -1,12 +1,9 @@
 # The Five pillars
 https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillars.wa-pillars.en.html
 
-- Operational Excellence
-- Security
-- Reliability
-- Performance Efficiency
-- Cost Optimization 
 
+<details>
+<summary>Operational excellence</summary>
 
 ## Operational excellence
 - Perform operations as code
@@ -35,6 +32,10 @@ https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillars.wa-pil
     - respond to events
 - Evolve
     - learn share & improve
+
+</details>
+<details>
+<summary>Security</summary>
 
 ## Security
 - implement a strong identity foundation
@@ -121,8 +122,13 @@ https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillars.wa-pil
     - regularly assess security properties of pipelines
     - build a program that embeds security ownership in workload teams
 
+</details>
 
-## Reliability 
+<details>
+<summary>Reliability</summary>
+
+## Reliability
+
 - automatically recover from failure
 - test recovery procedures
 - scale horizontally to increase aggregage workload availability
@@ -216,8 +222,14 @@ https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillars.wa-pil
         - test disaster recovery implementation to validate implementation
         - manage configuration drift at the DR site or region
         - automate recovery
+</details>
 
-## Eficiency
+<details>
+<summary>
+Performance Eficiency
+</summary>
+
+## Performance Eficiency
 - democratize advanced techonlogies
 - go global in minutes
 - use serverless architectures
@@ -279,8 +291,13 @@ https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillars.wa-pil
         - identify how trade offs impact customers and efficiency
         - measure impact of performance improvements
         - use various performance related strategies
+</details>
+
+<details>
+<summary>Cost optimization</summary>
 
 ## Cost optimization
+
 - practice cloud financial management
 - adopt a consumption model
 - measure overall efficency
@@ -348,3 +365,46 @@ https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillars.wa-pil
     - develop a worklaod review process
     - review and analyze this workload regularly
     - perform automations for operations
+
+## Sustainability
+- understand your impact
+- establish sustainability goals
+- maximize utilization
+- antiticipate and adopt new more and efficient hardware and software offerings
+- use managed services
+- reduce the downstream impact of your cloud workloads
+### Best practices
+- region selection
+- alignment to demand
+    - scale infrastructure with user load
+    - align SLAs with sustainability goals
+    - stop the creation and maintenance of unused assets
+    - optimize geographic of workloads for user locations
+    - optimize team members resources for activities performed
+    - implement buffering or throttling to flatten the damand curve
+- software and architecture patterns
+    - optimize software and architecture for async and scheduled jobs
+    - remove or refactor workload components with low or now use
+    - optimize areas of code that consume the most time or resources
+    - optimize impact on customer devices and equipment
+    - use software patterns and architectures that support data access and storage patterns
+- data patterns
+    - implment a data classfication policy
+    - use technology that support data access and storage patterns    
+    - use policies to manage the lifecycle of your datasets
+    - use elasticity and automation to expand block storage or file system
+    - remove unnedeed or redundant data 
+    - use shared file systems or object storage to access common data
+    - minimize data movement across networks
+    - back up data only when difficult to recreate
+- hardware and services
+    - use the minimum amount of hardware
+    - use instance types with the least impact
+    - use managed services
+    - optimize your use of hardware based compute accelerators
+- process and culture
+    - adopt methods that can rapidly introduce sustainability improvements
+    - keep your workwload up to date
+    - increase utilization of build environments
+    - use managed device farms for testing
+</details>
