@@ -365,6 +365,10 @@ Performance Eficiency
     - develop a worklaod review process
     - review and analyze this workload regularly
     - perform automations for operations
+</details>
+
+<details>
+<summary>Sustainability</summary>
 
 ## Sustainability
 - understand your impact
